@@ -39,6 +39,7 @@ public class JwtServiceApplication {
 			accountService.addNewUser(new AppUser(null, "user3", "12345", new ArrayList<>()));
 			accountService.addNewUser(new AppUser(null, "user2", "12345", new ArrayList<>()));
 			accountService.addNewUser(new AppUser(null, "user4", "12345", new ArrayList<>()));
+			accountService.addNewUser(new AppUser(null, "user5", "123456", new ArrayList<>()));
 
 			accountService.addRoleToUser("user1", "USER");
 			accountService.addRoleToUser("admin", "USER");
@@ -49,6 +50,8 @@ public class JwtServiceApplication {
 			accountService.addRoleToUser("user3", "PRODUCT_MANAGER");
 			accountService.addRoleToUser("user4", "USER");
 			accountService.addRoleToUser("user4", "BILLS_MANAGER");
+			accountService.addRoleToUser("user5", "BILLS_MANAGER");
+
 		};
 	}
 
