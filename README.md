@@ -35,13 +35,13 @@ This is a simple project with a challenge for Backend developers.
 #### Create your project
 
 - [X] Create the database using [H2](https://www.h2database.com/html/main.html). You should include the user table, the user can have multiple roles.
-- [ ] Create an endpoint to create a user. (The user should have a username and a password, be careful when saving the user password, and the roles)
-- [ ] Create an endpoint to update the permission to this user to ADMIN and/or USER role. This API could be called just by the ADMIN user, see @Secured and Roles in Spring Security.
+- [X] Create an endpoint to create a user. (The user should have a username and a password, be careful when saving the user password, and the roles)
+- [X] Create an endpoint to update the permission to this user to ADMIN and/or USER role. This API could be called just by the ADMIN user, see @Secured and Roles in Spring Security.
 
 #### Create the authentication for your API
 
-- [ ] Create the authentication using JWT
-- [ ] Create two roles ADMIN, USER
+- [X] Create the authentication using JWT
+- [X] Create two roles ADMIN, USER
 - [ ] Create an endpoint to return the JWT (5 minutes of timeout), receive the username and password
 
 * Book: REST API - Design Rulebook : Mark Masse: https://www.oreilly.com/library/view/rest-api-design/9781449317904/
@@ -57,8 +57,8 @@ This is a simple project with a challenge for Backend developers.
 
 #### Upgrade your API REST
 
-- [ ] Create an endpoint to consume an API from IMDB (https://imdb-api.com/) and populate your database (you can use WebClient or Feign to consume the API). This API could be called just by the ADMIN user, see @Secured and Roles in Spring Security.
-- [ ] Create an endpoint to list all the movies.
+- [X] Create an endpoint to consume an API from IMDB (https://imdb-api.com/) and populate your database (you can use WebClient or Feign to consume the API). This API could be called just by the ADMIN user, see @Secured and Roles in Spring Security.
+- [X] Create an endpoint to list all the movies.
 - [ ] Create an endpoint to include a movie to the user (favorite list)
 - [ ] Create an endpoint to exclude the movie from the favorite list
 - [ ] Each time the user includes the movie in the favorite list add one "star" to the movie

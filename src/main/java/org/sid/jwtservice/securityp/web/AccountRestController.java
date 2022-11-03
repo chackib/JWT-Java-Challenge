@@ -34,6 +34,7 @@ public class AccountRestController {
     @GetMapping(path="/users")
     @PostAuthorize("hasAuthority('USER')")
     public List<AppUser> appUser(){
+
         return accountService.listUsers();
     }
 
